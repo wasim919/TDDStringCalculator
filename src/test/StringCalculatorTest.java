@@ -19,24 +19,27 @@ public class StringCalculatorTest {
 
     @Test
     public void emptyStringSumsTo0() {
-        init();
         assertEquals(stringCalculator.sum(""), 0);
     }
 
     @Test
     public void sumSingleNumber() {
-        init();
         assertEquals(stringCalculator.sum("2"), 2);
         assertEquals(stringCalculator.sum("54"), 54);
     }
 
     @Test
-    public void sumTwoNumbersSeperatedByComma() {
+    public void sumTwoNumbersSeparatedByComma() {
         assertEquals(stringCalculator.sum("10, 5"), 15);
     }
 
     @Test
-    public void sumNumberSeperatedByComma() {
+    public void sumNumberSeparatedByComma() {
         assertEquals(stringCalculator.sum("10, 5, 9, 10"), 34);
+    }
+
+    @Test
+    public void sumNumbersSeparatedByCommaOrNewLine() {
+        assertEquals(stringCalculator.sum("1\n 2, 3"), 6);
     }
 }
