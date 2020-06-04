@@ -29,4 +29,9 @@ public class StringCalculatorTest {
         assertEquals(stringCalculator.sum("2"), 2);
         assertEquals(stringCalculator.sum("54"), 54);
     }
+
+    @Test
+    public void sumTwoNumbersSeperatedByComma() {
+        assertEquals(stringCalculator.sum("10, 5"), 15);
+    }
 }
