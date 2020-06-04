@@ -42,4 +42,9 @@ public class StringCalculatorTest {
     public void sumNumbersSeparatedByCommaOrNewLine() {
         assertEquals(stringCalculator.sum("1\n 2, 3"), 6);
     }
+
+    @Test
+    public void useDelimiterSpecified() {
+        assertEquals(stringCalculator.sum("//;\n1;2"), 3);
+    }
 }
