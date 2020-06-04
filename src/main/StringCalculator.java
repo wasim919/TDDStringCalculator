@@ -5,6 +5,9 @@ package main;
  */
 public class StringCalculator {
     public int sum(String s) {
-        return 0;
+        if (s.length() == 0) {
+            return 0;
+        }
+        return Integer.parseInt(s);
     }
 }

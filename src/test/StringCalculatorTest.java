@@ -22,4 +22,11 @@ public class StringCalculatorTest {
         init();
         assertEquals(stringCalculator.sum(""), 0);
     }
+
+    @Test
+    public void sumSingleNumber() {
+        init();
+        assertEquals(stringCalculator.sum("2"), 2);
+        assertEquals(stringCalculator.sum("54"), 54);
+    }
 }
