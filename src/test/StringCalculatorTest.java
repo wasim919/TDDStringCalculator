@@ -34,4 +34,9 @@ public class StringCalculatorTest {
     public void sumTwoNumbersSeperatedByComma() {
         assertEquals(stringCalculator.sum("10, 5"), 15);
     }
+
+    @Test
+    public void sumNumberSeperatedByComma() {
+        assertEquals(stringCalculator.sum("10, 5, 9, 10"), 34);
+    }
 }
