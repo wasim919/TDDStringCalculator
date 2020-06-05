@@ -2,7 +2,9 @@ package test;
 
 import main.StringCalculator;
 import org.junit.Before;
+import org.junit.Rule;
 import org.junit.Test;
+import org.junit.rules.ExpectedException;
 
 import static org.junit.Assert.assertEquals;
 
@@ -46,5 +48,16 @@ public class StringCalculatorTest {
     @Test
     public void useDelimiterSpecified() {
         assertEquals(stringCalculator.sum("//;\n1;2"), 3);
+    }
+
+    @Rule
+    public ExpectedException expectedException = ExpectedException.none();
+
+    @Test
+    public void throwNegativeNumberException() {
+        expectedException.expect(IllegalArgumentException.class);
+        expectedException.expectMessage("Negative number: -3,-5,-13");
+
+        stringCalculator.sum("1, -3, -5, -13");
     }
 }
