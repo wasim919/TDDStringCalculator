@@ -11,13 +11,20 @@ import static java.util.stream.Collectors.toList;
  */
 public class StringCalculator {
     private String delimiter;
-    public int sum(String s) {
+    public static int count = 0;
+    public int Add(String s) {
+        StringCalculator.count += 1;
         if (s.length() == 0) {
             return 0;
         }
         List<Integer> numberSequence = getNumberSequence(s);
         checkForNegativeNumbers(numberSequence);
+        numberSequence = removeNumbersGreaterThan1000(numberSequence);
         return numberSequence.stream().reduce(0, (el1, el2) -> el1 + el2);
+    }
+
+    private List<Integer> removeNumbersGreaterThan1000(List<Integer> numberSequence) {
+        return numberSequence.stream().filter(el -> el <= 1000).collect(Collectors.toList());
     }
 
     private void checkForNegativeNumbers(List<Integer> numberSequence) {
@@ -37,5 +44,9 @@ public class StringCalculator {
             delimiter = ",|\n";
         }
         return Arrays.stream(s.split(delimiter)).map(el -> Integer.parseInt(el.trim())).collect(Collectors.toList());
+    }
+
+    public int GetCalledCount() {
+        return StringCalculator.count;
     }
 }

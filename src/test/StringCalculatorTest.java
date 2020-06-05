@@ -21,33 +21,33 @@ public class StringCalculatorTest {
 
     @Test
     public void emptyStringSumsTo0() {
-        assertEquals(stringCalculator.sum(""), 0);
+        assertEquals(stringCalculator.Add(""), 0);
     }
 
     @Test
     public void sumSingleNumber() {
-        assertEquals(stringCalculator.sum("2"), 2);
-        assertEquals(stringCalculator.sum("54"), 54);
+        assertEquals(stringCalculator.Add("2"), 2);
+        assertEquals(stringCalculator.Add("54"), 54);
     }
 
     @Test
     public void sumTwoNumbersSeparatedByComma() {
-        assertEquals(stringCalculator.sum("10, 5"), 15);
+        assertEquals(stringCalculator.Add("10, 5"), 15);
     }
 
     @Test
     public void sumNumberSeparatedByComma() {
-        assertEquals(stringCalculator.sum("10, 5, 9, 10"), 34);
+        assertEquals(stringCalculator.Add("10, 5, 9, 10"), 34);
     }
 
     @Test
     public void sumNumbersSeparatedByCommaOrNewLine() {
-        assertEquals(stringCalculator.sum("1\n 2, 3"), 6);
+        assertEquals(stringCalculator.Add("1\n 2, 3"), 6);
     }
 
     @Test
     public void useDelimiterSpecified() {
-        assertEquals(stringCalculator.sum("//;\n1;2"), 3);
+        assertEquals(stringCalculator.Add("//;\n1;2"), 3);
     }
 
     @Rule
@@ -58,6 +58,18 @@ public class StringCalculatorTest {
         expectedException.expect(IllegalArgumentException.class);
         expectedException.expectMessage("Negative number: -3,-5,-13");
 
-        stringCalculator.sum("1, -3, -5, -13");
+        stringCalculator.Add("1, -3, -5, -13");
     }
+
+    @Test
+    public void countNumberOfTimeAddIsCalled() {
+        assertEquals(stringCalculator.GetCalledCount(), 1);
+    }
+
+    @Test
+    public void sumNumbersBiggerThan1000() {
+        assertEquals(stringCalculator.Add("1000, 3, 1001, 5"), 1008);
+    }
+
+    
 }
