@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54d1d9d0-d255-4d7b-93be-df51cfe81d09" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StringCalculatorTDD/main/StringCalculator.class" afterPath="$PROJECT_DIR$/out/production/StringCalculatorTDD/main/StringCalculator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StringCalculatorTDD/test/StringCalculatorTest.class" afterPath="$PROJECT_DIR$/out/production/StringCalculatorTDD/test/StringCalculatorTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/StringCalculator.java" afterPath="$PROJECT_DIR$/src/main/StringCalculator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/StringCalculatorTest.java" afterPath="$PROJECT_DIR$/src/test/StringCalculatorTest.java" />
     </list>
@@ -22,18 +25,14 @@
       <file leaf-file-name="StringCalculatorTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/StringCalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="73" column="4" lean-forward="false" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="4" />
+            <state relative-caret-position="374">
+              <caret line="44" column="46" lean-forward="true" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#367#368#0" expanded="true" />
-                <element signature="e#424#425#0" expanded="true" />
-                <element signature="e#1126#1127#0" expanded="true" />
-                <element signature="e#1191#1192#0" expanded="true" />
-                <element signature="e#1589#1590#0" expanded="true" />
-                <element signature="e#1655#1656#0" expanded="true" />
-                <element signature="e#1711#1712#0" expanded="true" />
-                <element signature="e#1787#1788#0" expanded="true" />
+                <element signature="e#1580#1581#0" expanded="true" />
+                <element signature="e#1646#1647#0" expanded="true" />
+                <element signature="e#1975#1976#0" expanded="true" />
+                <element signature="e#2047#2048#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -42,12 +41,11 @@
       <file leaf-file-name="StringCalculator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/StringCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="21" column="70" lean-forward="true" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
+            <state relative-caret-position="179">
+              <caret line="25" column="100" lean-forward="false" selection-start-line="25" selection-start-column="100" selection-end-line="25" selection-end-column="100" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1768#1769#0" expanded="true" />
-                <element signature="e#1813#1814#0" expanded="true" />
+                <element signature="e#2557#2565#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -186,7 +184,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StringCalculatorTest.sumNumbersBiggerThan1000">
+  <component name="RunManager" selected="JUnit.StringCalculatorTest.emptyStringSumsTo0">
+    <configuration default="false" name="StringCalculatorTest.sumNumberSeparatedByComma" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="StringCalculatorTDD" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.StringCalculatorTest" />
+      <option name="METHOD_NAME" value="sumNumberSeparatedByComma" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
     <configuration default="false" name="StringCalculatorTest.sumNumbersSeparatedByCommaOrNewLine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -213,7 +237,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="StringCalculatorTest.throwNegativeNumberException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="StringCalculatorTest.sumTwoNumbersSeparatedByComma" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="test.*" />
@@ -225,7 +249,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.StringCalculatorTest" />
-      <option name="METHOD_NAME" value="throwNegativeNumberException" />
+      <option name="METHOD_NAME" value="sumTwoNumbersSeparatedByComma" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -239,7 +263,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="StringCalculatorTest.useDelimiterSpecified" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="StringCalculatorTest.sumSingleNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="test.*" />
@@ -251,7 +275,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.StringCalculatorTest" />
-      <option name="METHOD_NAME" value="useDelimiterSpecified" />
+      <option name="METHOD_NAME" value="sumSingleNumber" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -265,7 +289,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="StringCalculatorTest.countNumberOfTimeAddIsCalled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="StringCalculatorTest.emptyStringSumsTo0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="test.*" />
@@ -277,33 +301,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.StringCalculatorTest" />
-      <option name="METHOD_NAME" value="countNumberOfTimeAddIsCalled" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="StringCalculatorTest.sumNumbersBiggerThan1000" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="StringCalculatorTDD" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.StringCalculatorTest" />
-      <option name="METHOD_NAME" value="sumNumbersBiggerThan1000" />
+      <option name="METHOD_NAME" value="emptyStringSumsTo0" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -522,19 +520,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.sumNumbersSeparatedByCommaOrNewLine" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.throwNegativeNumberException" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.useDelimiterSpecified" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.countNumberOfTimeAddIsCalled" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.sumNumbersBiggerThan1000" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.sumNumberSeparatedByComma" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.sumNumbersSeparatedByCommaOrNewLine" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.sumTwoNumbersSeparatedByComma" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.sumSingleNumber" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.emptyStringSumsTo0" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.sumNumbersBiggerThan1000" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.countNumberOfTimeAddIsCalled" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.useDelimiterSpecified" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.throwNegativeNumberException" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.sumNumbersSeparatedByCommaOrNewLine" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.emptyStringSumsTo0" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.sumSingleNumber" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.sumTwoNumbersSeparatedByComma" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.sumNumbersSeparatedByCommaOrNewLine" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.sumNumberSeparatedByComma" />
       </list>
     </recent_temporary>
   </component>
@@ -552,34 +550,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StringCalculatorTest_countNumberOfTimeAddIsCalled - 2020.06.05 at 16h 32m 22s.xml">
+    <history-entry file="StringCalculatorTest_countNumberOfTimeAddIsCalled - 2020.06.06 at 10h 42m 19s.xml">
       <configuration name="StringCalculatorTest.countNumberOfTimeAddIsCalled" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringCalculatorTest_countNumberOfTimeAddIsCalled - 2020.06.05 at 16h 34m 08s.xml">
+    <history-entry file="StringCalculatorTest_countNumberOfTimeAddIsCalled - 2020.06.06 at 10h 42m 30s.xml">
       <configuration name="StringCalculatorTest.countNumberOfTimeAddIsCalled" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringCalculatorTest_sumNumbersBiggerThan1000 - 2020.06.05 at 16h 53m 21s.xml">
-      <configuration name="StringCalculatorTest.sumNumbersBiggerThan1000" configurationId="JUnit" />
+    <history-entry file="StringCalculatorTest_emptyStringSumsTo0 - 2020.06.06 at 10h 43m 33s.xml">
+      <configuration name="StringCalculatorTest.emptyStringSumsTo0" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringCalculatorTest_sumNumbersBiggerThan1000 - 2020.06.05 at 16h 53m 46s.xml">
-      <configuration name="StringCalculatorTest.sumNumbersBiggerThan1000" configurationId="JUnit" />
+    <history-entry file="StringCalculatorTest_sumNumberSeparatedByComma - 2020.06.06 at 10h 43m 16s.xml">
+      <configuration name="StringCalculatorTest.sumNumberSeparatedByComma" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringCalculatorTest_sumNumbersBiggerThan1000 - 2020.06.05 at 16h 53m 55s.xml">
-      <configuration name="StringCalculatorTest.sumNumbersBiggerThan1000" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringCalculatorTest_sumNumbersBiggerThan1000 - 2020.06.05 at 16h 54m 06s.xml">
-      <configuration name="StringCalculatorTest.sumNumbersBiggerThan1000" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringCalculatorTest_sumNumbersSeparatedByCommaOrNewLine - 2020.06.05 at 16h 31m 54s.xml">
+    <history-entry file="StringCalculatorTest_sumNumbersSeparatedByCommaOrNewLine - 2020.06.06 at 10h 43m 22s.xml">
       <configuration name="StringCalculatorTest.sumNumbersSeparatedByCommaOrNewLine" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringCalculatorTest_throwNegativeNumberException - 2020.06.05 at 16h 32m 09s.xml">
+    <history-entry file="StringCalculatorTest_sumSingleNumber - 2020.06.06 at 10h 43m 29s.xml">
+      <configuration name="StringCalculatorTest.sumSingleNumber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTest_sumTwoNumbersSeparatedByComma - 2020.06.06 at 10h 43m 26s.xml">
+      <configuration name="StringCalculatorTest.sumTwoNumbersSeparatedByComma" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTest_throwNegativeNumberException - 2020.06.06 at 10h 42m 36s.xml">
       <configuration name="StringCalculatorTest.throwNegativeNumberException" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringCalculatorTest_useDelimiterSpecified - 2020.06.05 at 16h 32m 13s.xml">
-      <configuration name="StringCalculatorTest.useDelimiterSpecified" configurationId="JUnit" />
+    <history-entry file="StringCalculatorTest_throwNegativeNumberException - 2020.06.06 at 10h 42m 47s.xml">
+      <configuration name="StringCalculatorTest.throwNegativeNumberException" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringCalculatorTest_useDelimiterSpecified - 2020.06.05 at 16h 32m 17s.xml">
+    <history-entry file="StringCalculatorTest_useDelimiterSpecified - 2020.06.06 at 10h 42m 53s.xml">
       <configuration name="StringCalculatorTest.useDelimiterSpecified" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -605,26 +603,26 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39938557" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -642,15 +640,15 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39938557" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34101382" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -663,7 +661,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -674,18 +672,39 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/StringCalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="60" column="32" lean-forward="false" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1580#1581#0" expanded="true" />
+            <element signature="e#1646#1647#0" expanded="true" />
+            <element signature="e#1975#1976#0" expanded="true" />
+            <element signature="e#2047#2048#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/StringCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="79" column="33" lean-forward="false" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2557#2565#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/StringCalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#1126#1127#0" expanded="true" />
-            <element signature="e#1191#1192#0" expanded="true" />
-            <element signature="e#1589#1590#0" expanded="true" />
-            <element signature="e#1655#1656#0" expanded="true" />
-            <element signature="e#1711#1712#0" expanded="true" />
-            <element signature="e#1787#1788#0" expanded="true" />
+            <element signature="e#1580#1581#0" expanded="true" />
+            <element signature="e#1646#1647#0" expanded="true" />
+            <element signature="e#1975#1976#0" expanded="true" />
+            <element signature="e#2047#2048#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -696,8 +715,7 @@
           <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1768#1769#0" expanded="true" />
-            <element signature="e#1813#1814#0" expanded="true" />
+            <element signature="e#2557#2565#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -714,32 +732,34 @@
     <entry file="file://$PROJECT_DIR$/src/StringCalculatorTest/groovy.groovy" />
     <entry file="file://$PROJECT_DIR$/src/StringCalculatorTest/StringCalculatorTest.groovy" />
     <entry file="file://$PROJECT_DIR$/src/StringCalculatorTest/StringCalculatorTest.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/function/IntFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="48" column="6" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/StringCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="21" column="70" lean-forward="true" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
+        <state relative-caret-position="179">
+          <caret line="25" column="100" lean-forward="false" selection-start-line="25" selection-start-column="100" selection-end-line="25" selection-end-column="100" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1768#1769#0" expanded="true" />
-            <element signature="e#1813#1814#0" expanded="true" />
+            <element signature="e#2557#2565#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/StringCalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="73" column="4" lean-forward="false" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="4" />
+        <state relative-caret-position="374">
+          <caret line="44" column="46" lean-forward="true" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#1126#1127#0" expanded="true" />
-            <element signature="e#1191#1192#0" expanded="true" />
-            <element signature="e#1589#1590#0" expanded="true" />
-            <element signature="e#1655#1656#0" expanded="true" />
-            <element signature="e#1711#1712#0" expanded="true" />
-            <element signature="e#1787#1788#0" expanded="true" />
+            <element signature="e#1580#1581#0" expanded="true" />
+            <element signature="e#1646#1647#0" expanded="true" />
+            <element signature="e#1975#1976#0" expanded="true" />
+            <element signature="e#2047#2048#0" expanded="true" />
           </folding>
         </state>
       </provider>
