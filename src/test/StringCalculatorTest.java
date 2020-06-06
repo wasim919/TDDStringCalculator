@@ -2,6 +2,7 @@ package test;
 
 import main.StringCalculator;
 import org.junit.Before;
+import org.junit.BeforeClass;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
@@ -12,12 +13,12 @@ import static org.junit.Assert.assertEquals;
  * Created by wasim on 04-06-2020.
  */
 public class StringCalculatorTest {
-    private StringCalculator stringCalculator;
+    static StringCalculator stringCalculator = new StringCalculator();
 
-    @Before
-    public void init() {
-        stringCalculator = new StringCalculator();
-    }
+//    @BeforeClass
+//    public static void init() {
+//        stringCalculator = new StringCalculator();
+//    }
 
     @Test
     public void emptyStringSumsTo0() {

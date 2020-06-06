@@ -14,15 +14,15 @@ import static java.util.stream.Collectors.toList;
 public class StringCalculator {
     private String delimiter;
     public static int count = 0;
+
     public int Add(String s) {
-        StringCalculator.count += 1;
         if (s.length() == 0) {
             return 0;
         }
         List<String> numberSequence = getNumberSequence(s);
         checkForNegativeNumbers(numberSequence);
         numberSequence = removeNumbersGreaterThan1000(numberSequence);
-
+        count++;
         return numberSequence.stream().mapToInt(Integer::parseInt).reduce(0, (el1, el2) -> el1 + el2);
     }
 
@@ -75,6 +75,6 @@ public class StringCalculator {
     }
 
     public int GetCalledCount() {
-        return StringCalculator.count;
+        return this.count;
     }
 }
